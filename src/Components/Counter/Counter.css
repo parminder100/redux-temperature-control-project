@@ -1,0 +1,47 @@
+.temperature{
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+}
+.temperature-container{
+    width: 350px;
+    padding:30px;
+    margin: auto;
+    background-color: #2b5870;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+.temperature-unit{
+    padding: 20px;
+    transition: background 0.5s;
+    background: #035aa6;
+    border-radius: 50%;
+    height: 205px;
+    width: 211px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 3px solid #fff;
+}
+.hot{
+    background: #ff5200;
+}
+button{
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    font-size: 32px;
+    color: #ffffff;
+    background: rgb(105, 104, 104);
+    border: 2px #ffffff solid;
+}
+button:hover {
+    background: rgb(184, 184, 184);
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
